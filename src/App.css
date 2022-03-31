@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #EAF2EF;
+  background-color: #eaf2ef;
 }
 .container {
   max-width: 95%;
@@ -51,24 +51,26 @@ button {
   transition: 0.5s;
 }
 .btn_shadow {
-  background: linear-gradient(145deg, #EAF2EF, #ecf5f1);
+  background: linear-gradient(145deg, #eaf2ef, #ecf5f1);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 
 .btn_shadow:hover {
-  background: #BB0A21;
+  background: #bb0a21;
   color: white;
   transform: translateY(-10px);
 }
 
-.row, .left, .right{
+.row,
+.left,
+.right {
   width: 50%;
 }
 
-.top{
+.top {
   margin-top: 80px;
 }
 
-.mtop{
+.mtop {
   margin-top: 40px;
 }
