@@ -1,0 +1,64 @@
+.custom-shape-divider-top-1648760620 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1648760620 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1648760620 .shape-fill {
+  fill: green;
+}
+
+.projectos {
+  background-color: #eaf2ef;
+  width: 100%;
+  height: 100vh;
+}
+
+.titulo {
+  font-size: 60px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 20px;
+  place-items: center;
+  margin-top: 100px;
+}
+
+.grid-item {
+  width: 320px;
+  height: 400px;
+  background-color: #eaf2ef;
+  border-radius: 15px;
+  font-size: 100px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.grid-item:hover {
+  background-color: #bb0a21;
+  color: white;
+  transform: translateY(-10px);
+}
+
+.titulo-item {
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
