@@ -73,6 +73,7 @@
   width: 510px;
   border-radius: 10px;
 }
+
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {
