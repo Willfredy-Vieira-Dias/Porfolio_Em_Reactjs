@@ -4,6 +4,7 @@
  import Sobremim from "./componentes/sobremim/about"
  import Projectos from "./componentes/projectos/project"
  import Habilidades from "./componentes/habilidades/hability"
+ import Redessociais from "./componentes/redes/sociais"
  import "./App.css" 
  
  const App = () => {
@@ -14,6 +15,7 @@
      <Sobremim/>
      <Projectos/>
      <Habilidades/>
+     <Redessociais/>
      </>
    )
  }
