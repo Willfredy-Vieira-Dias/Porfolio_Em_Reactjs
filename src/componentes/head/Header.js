@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../head/Header.css";
-import logo from "../img/logo.png";
 
 const Header = () => {
   window.addEventListener("scroll", function() {
@@ -15,7 +14,6 @@ const Header = () => {
       <header className="header">
         <div className="container d_flex">
           <div className="logo">
-            <img src={logo} alt="" />
           </div>
 
           <div className="navlink">
@@ -39,10 +37,10 @@ const Header = () => {
                 <a href="#clients">Redes Sociais</a>
               </li>
               <li>
-                <a href="#blog">blog</a>
+                <a href="#blog">Contacte-me</a>
               </li>
               <li>
-                <a href="#contact">contact</a>
+                <a href="#contact">Ajuda</a>
               </li>
               <li>
                 <button className="home-btn">SEJA BEM-VINDO</button>
